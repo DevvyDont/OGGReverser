@@ -38,7 +38,8 @@ def main():
     print('Clearing the output directory')
 
     # Clear the output directory
-    shutil.rmtree('output')
+    if 'output' in os.listdir():
+        shutil.rmtree('output')
 
     print('Scanning which files to process')
 
