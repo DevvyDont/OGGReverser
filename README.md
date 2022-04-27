@@ -4,8 +4,8 @@ A silly little tool that will reverse all OGG files using python
 ## Prereqs
 
 ### Setting up
-If you just want to use the pre generated content pack for clash that this tool was made for, head on over
-to the releases tab and download `reverse.mf` and place it in the `contentpacks` directory where your
+If you just want to use the pre generated content pack for clash/ttr that this tool was made for, head on over
+to the releases tab and download `reverse-clash.mf` or `reverse-ttr.mf` (depending on what game) and place it in the `resources/contentpacks` directory (clash) or `resources` directory (ttr) where your
 game files are located
 
 If you would like to reverse your own ogg files, then you will need to clone/download this repository and have
@@ -36,7 +36,7 @@ follow these steps:
 - In the target folder, place the mf files that you would like to extract (game files or another content pack)
 - Run the `unpackmf.bat` script. This will extract all those mf files you placed so you can browse the game files directly
 - Run the tool as normal as described above (run `main.py`) and wait for the tool to finish
-- Now that all the OGG files are reversed in the `output` directory, you can now run the `packmf.bat` script. This will pack the newly reversed OGG files into `reverse.mf` (click into the `output` folder then `target`) which can be used as a content pack
+- Now that all the OGG files are reversed in the `output` directory, you can now run the `packmf.bat` script. This will pack the newly reversed OGG files into `reverse.mf` (click into the `output` folder then `target`) which can be used as a content pack for clash and ttr
 
 ### License
 
